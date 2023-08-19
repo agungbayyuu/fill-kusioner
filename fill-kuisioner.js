@@ -11,3 +11,8 @@ dropdowns.forEach(function(dropdown) {
     var changeEvent = new Event('change', { bubbles: true });
     dropdown.dispatchEvent(changeEvent);
 });
+// Get the "Simpan" button element by its ID
+var simpanButton = document.getElementById('simpan_quizionare');
+
+// Trigger the click event on the button
+simpanButton.click();
